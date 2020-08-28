@@ -42,7 +42,7 @@
               <!-- LOST -->
               <div v-else-if="aplayer.hp <= 0"><img
             src="https://lh3.googleusercontent.com/proxy/XdqGeg8FNf6nuuaVkxta-HnCPKjYUXRYhkDeRKq5ufZjGVYDujCpCL1NgiiDVGHjTJAqab6G5CUPIIuot_ROQuwRaUo_VsyC"
-            width="100%"
+            width="200%"
           /></div>
             </div>
           </div>
@@ -77,12 +77,7 @@ export default {
         "https://img.pngio.com/health-bar-png-pictures-trzcacakrs-health-bar-png-1190_1120.png",
       aplayer: { name: "", hp: 1, image: "", hp1: "" },
       player: [
-        {
-          name: "Zinogre",
-          hp: 380,
-          image:
-            "http://www.pngmart.com/files/7/Monster-Hunter-World-PNG-File.png",
-        },
+        
         {
           name: "Iron man",
           hp: 330,
@@ -91,7 +86,7 @@ export default {
         },
         {
           name: "Rey Skywalker",
-          hp: 130,
+          hp: 250,
           image:
             "http://www.pngmart.com/files/12/Star-Wars-The-Rise-Of-Skywalker-PNG-Photos.png",
         },
@@ -102,20 +97,20 @@ export default {
             "http://www.pngmart.com/files/5/Batman-Arkham-City-PNG-Free-Download.png",
         },
         {
-          name: "Terminator",
-          hp: 500,
+          name: "The Terminator",
+          hp: 400,
           image: "http://www.pngmart.com/files/2/Terminator-PNG-Transparent-Picture.png",
         },
         {
           name: "Hulk",
-          hp: 250,
+          hp: 450,
           image: "http://www.pngmart.com/files/2/Hulk-PNG-Photos.png",
         },
         {
           name: "Godzilla",
           hp: 500,
           image:
-            "https://www.freepngimg.com/thumb/godzilla/3-2-godzilla-free-download-png.png",
+            "http://www.pngmart.com/files/3/Godzilla-Transparent-PNG.png",
         },
         
          
@@ -124,38 +119,33 @@ export default {
       monster: [
         
         {
-          name: "Chicken Minecraft",
-          hp: 120,
+          name: "King Ghidorah",
+          hp: 500,
           image:
-            "https://www.freepngimg.com/thumb/minecraft/1-2-minecraft-chicken-png.png",
+            "http://www.pngmart.com/files/12/Cretaceous-King-Ghidorah-Transparent-Background.png",
         },
         {
-          name: "Sesshomaru",
-          hp: 215,
+          name: "Rev-9",
+          hp: 480,
           image:
-            "http://www.pngmart.com/files/4/Inuyasha-PNG-Transparent-Picture.png",
+            "https://cdn131.picsart.com/309727966239211.png?type=webp&to=min&r=1280",
         },
         {
-          name: "Reborn",
-          hp: 325,
-          image: "http://www.pngmart.com/files/5/Reborn-PNG-HD.png",
+          name: "Joker",
+          hp: 320,
+          image: "http://www.pngmart.com/files/2/Batman-Joker-PNG-Photo.png",
         },
         {
-          name: "Dah'ren Mohran",
-          hp: 385,
-          image: "http://www.pngmart.com/files/4/Sand-Monster-PNG-Photos.png",
+          name: "Emperor Palpatine",
+          hp: 365,
+          image: "http://www.pngmart.com/files/12/Star-Wars-Emperor-Palpatine-PNG-Image.png",
         },
         {
-          name: "Monkey D Luffy",
-          hp: 225,
-          image: "http://www.pngmart.com/files/2/Monkey-D-Luffy-PNG-Photos.png",
-        },
-        {
-          name: "Deidara",
-          hp: 230,
-          image:
-            "http://www.pngmart.com/files/13/Naruto-Akatsuki-PNG-Transparent.png",
-        },
+          name: "Thanos",
+          hp: 500,
+          image: "http://www.pngmart.com/files/9/Marvel-Thanos-PNG-Photos.png",
+        }
+      
         
       ],
       pmax: "",
